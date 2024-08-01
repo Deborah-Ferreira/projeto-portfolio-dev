@@ -239,3 +239,160 @@
     }
      
 }
+#contact {
+    background: url(../assets/Background_Contacts.png) no-repeat;
+    background-size: cover;  
+    max-width: 1366px;
+    height: 787px;
+    padding: 128px 120px 200px;
+    margin: auto;
+    font: inherit;
+
+        header {
+            width: 420px;
+            height: 91px;
+            margin: auto; 
+        }
+        h3 {
+            color: var(--purple);
+            padding: 8px; 
+        }
+
+
+        p {
+            text-align: center;
+            padding-top: 8px; 
+            font: inherit;
+        }
+
+        #links { 
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;  
+            gap: 16px;
+            width: 400px;
+            height: 320px; 
+            margin:48px auto 0px;  
+             
+            .icons {
+                width: 400px;
+                height: 68px;    
+                border-radius: 8px;
+                display: flex; 
+                gap: 12px; 
+                margin: auto;
+                align-items: center; 
+                background-color: var(--gray-300); 
+            }
+            #linkedin {
+                    
+                color: var(--gray-400);   
+                display: flex;
+                align-items: center;
+                width: 28px;
+                height: 28px;
+                margin: 20px; 
+                background: url(../assets/icons/LinkedinLogo.svg) no-repeat; 
+            } 
+
+            #instagram { 
+                color: var(--gray-400);   
+                display: flex;
+                align-items: center;
+                width: 28px;
+                height: 28px;
+                margin: 20px; 
+                background: url(../assets/icons/InstagramLogo.svg) no-repeat;
+            }
+
+            #gitHub {
+                color: var(--gray-400);   
+                display: flex;
+                align-items: center;
+                width: 28px;
+                height: 28px;
+                margin: 20px; 
+                background: url(../assets/icons/GithubLogo.svg) no-repeat;
+            }
+
+            #e-mail {
+                color: var(--gray-400);   
+                display: flex;
+                align-items: center;
+                width: 28px;
+                height: 28px;
+                margin: 20px; 
+                background: url(../assets/icons/EnvelopeSimple.svg) no-repeat;
+            }
+
+
+
+            p { 
+                    color: inherit; 
+                    width: 288px;
+                    height: 22px;
+                    line-height: 140%;
+                    margin-block: 23;  
+                    display: flex;
+                    flex-direction: column; 
+                    justify-content: center; 
+                    align-items:start; 
+                    padding: 1px;  
+            }
+            .seta{ 
+                margin: 24px 20px 24px auto; 
+                display: flex; 
+                
+            img {
+                width: 11.25px;
+                height: 11.25px;
+                margin: 4.37px 4.38px 4.37px 4.37px; 
+                    
+            }
+        } 
+
+        .icons:hover {
+            border: 1px solid var(--blue);
+            display: flex;
+            align-items: center;
+  
+            
+            #linkedin{ 
+                background: url(../assets/icons/LinkedinLogo-hover.svg) no-repeat; 
+                
+                width: 28px;
+                height: 28px;
+                margin: 20px;
+            }  
+
+            #instagram {  
+                background: url(../assets/icons/InstagramLogo-hover.svg) no-repeat; 
+                
+                width: 28px;
+                height: 28px;
+                margin: 20px;
+            }
+
+            #gitHub {
+                background: url(../assets/icons/GithubLogo-hover.svg) no-repeat; 
+                
+                width: 28px;
+                height: 28px;
+                margin: 20px;
+            }
+
+            #e-mail {
+                background: url(../assets/icons/EnvelopeSimple-hover.svg) no-repeat; 
+                
+                width: 28px;
+                height: 28px;
+                margin: 20px;
+            }
+
+
+            
+        }
+        
+        
+    }  
+}
