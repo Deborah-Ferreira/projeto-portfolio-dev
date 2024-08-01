@@ -35,4 +35,23 @@
 body {  
     font: var(--text-md);
     color: var(--gray-500); 
+} 
+
+h1 {
+    font: var(--title-lg); 
+    color: var(--gray-600);
+}
+
+h3 {
+    font: var(--subtitle);  
+    text-align: center; 
+    margin-bottom: 8px;
+    span {
+        color: var(--red);
+    }
+} 
+
+p {
+    font: var(--text-sm);
+    color: var(--gray-400);
 }
