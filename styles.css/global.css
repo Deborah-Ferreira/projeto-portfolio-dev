@@ -40,8 +40,12 @@ body {
 h1 {
     font: var(--title-lg); 
     color: var(--gray-600);
-}
-
+} 
+h2 {
+    font: var(--title-md); 
+    text-align: center;
+    color: var(--gray-600);  
+} 
 h3 {
     font: var(--subtitle);  
     text-align: center; 
@@ -50,7 +54,10 @@ h3 {
         color: var(--red);
     }
 } 
-
+h4 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
 p {
     font: var(--text-sm);
     color: var(--gray-400);

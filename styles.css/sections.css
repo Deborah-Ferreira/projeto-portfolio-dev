@@ -132,18 +132,15 @@
             }
          
         }
-        
         h3 {
             margin-top:  56px; 
             text-align: center;
             width: 680px; 
-        }
-
+        } 
         h1 { 
             text-align: center; 
             width: 680px; 
-        }
-
+        } 
         p {
             margin-top: 20px;
             text-align: center; 
@@ -151,4 +148,55 @@
         }
         
     }
-    } 
+}
+#projects {  
+    max-width: 1366px;
+    height: 917px;
+    background-color: var(--gray-200);
+    padding: 72px 120px 144px; 
+    margin: auto;
+
+    h2 {
+        margin-bottom: 56px;
+    }
+     
+    figure  {   
+        max-width: 1040px;
+        height: 584px; 
+
+        grid-template-columns: repeat(3, 330px);
+        grid-template-rows: repeat(3, 280px);
+        gap: 24px; 
+        margin: auto;
+         
+
+        figcaption { 
+            background-color: var(--gray-300);
+            border-radius: 12px; 
+            margin-inline: auto;
+
+            img {
+                width: 306px;
+                height: 156px; 
+                border-radius: 8px;   
+                margin: 12px 12px auto;
+                
+            }
+             
+            .contentCard {  
+                width: 306px;
+                height: 75px;  
+                margin: 20px 12px 12px;  
+
+               p {
+                margin-top: 8px; 
+            }
+
+            }
+        }
+        figcaption:hover {
+            border: 1px solid var(--gray-400);  
+        }
+        
+    }  
+}
